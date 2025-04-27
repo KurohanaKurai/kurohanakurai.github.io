@@ -1,0 +1,14 @@
+.video-container {
+    display: flex; 
+    justify-content: center;
+    gap: 10px; 
+}
+
+.video-container iframe {
+    width: 100%; 
+    max-width: 400px; 
+    height: auto; 
+    aspect-ratio: 16 / 9; 
+    border: 10px solid #35424a; 
+    border-radius: 10px;
+}
